@@ -116,7 +116,7 @@ i {
 }
 
 /* Media query */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
 .name-heading {
   display: block;
   position: static;
