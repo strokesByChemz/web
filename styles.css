@@ -90,7 +90,7 @@ footer {
   transition: transform 0.25s;
 }
 .pic-card:hover {
-  transform: scale(1.8);
+  transform: scale(2);
   padding: 2px;
   z-index: 5;
 }
@@ -126,7 +126,7 @@ i {
 
 @media screen and (max-width: 1120px) {
 .name-heading {
-  font-size: 4.5rem;
+  font-size: 6rem;
   margin-top: 2rem;
   text-align: center;
 }
@@ -139,11 +139,11 @@ i {
   margin: 0 auto;
 }
 .big-pic {
-  width: 78%;
+  width: 70%;
   margin: 1.5rem;
 }
 .small-pic {
-  width: 75%;
+  width: 70%;
 }
 .bottom-pic {
   position: static;
@@ -152,6 +152,7 @@ i {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   text-align: center;
+  font-size: 3rem;
 }
 .about-div {
   text-align: center;
