@@ -30,7 +30,7 @@ body {
   margin: auto;
 }
 .name-heading {
-  font-size: 5rem;
+  font-size: 500%;
   text-align: right;
   font-family: 'Sassy Frass', cursive;
 }
@@ -66,6 +66,7 @@ body {
   text-align: left;
   padding-top: 1.5rem;
   font-weight: bold;
+  margin-bottom: 0;
 }
 .description {
   margin: auto;
@@ -79,7 +80,7 @@ h5 {
 }
 .cta {
   text-align: center;
-  padding: 1rem 0 2rem;
+  padding: 2rem 0 3rem;
 }
 .button-link {
   background-color: #dbc6b5;
@@ -157,8 +158,8 @@ i {
 
 @media screen and (max-width: 1120px) {
 .name-heading {
-  font-size: 7.5rem;
-  margin-top: 2rem;
+  font-size: 5rem;
+  margin-top: 5rem;
   text-align: center;
 }
 .col-one {
@@ -170,26 +171,26 @@ i {
   margin: 0 auto;
 }
 .big-pic {
-  width: 60%;
+  width: 90%;
   margin: 1.5rem;
 }
 .small-pic {
   display: none;
 }
-.bottom-pic {
-  position: static;
-  }
 .para {
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 8rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.75rem;
+}
+.para-two {
+  padding-top: 0.5rem;
 }
 h5 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .button-link {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 .about-div {
   text-align: center;
@@ -203,4 +204,16 @@ h5 {
 .details {
   text-align: center;
 }
+}
+
+@media screen and (max-width: 991px) {
+.name-heading {
+  font-size: 7.5rem;
+  }
+.para {
+  font-size: 2.25rem;
+}
+.big-pic {
+  width: 60%;
+  }
 }
