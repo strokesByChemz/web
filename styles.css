@@ -178,11 +178,13 @@ i {
   display: none;
 }
 .para {
-  padding-bottom: 1rem;
-  padding-top: 8rem;
   text-align: center;
   font-size: 1.75rem;
+  padding-bottom: 1rem;
 }
+.para-one {
+  padding-top: 8rem;
+  }
 .para-two {
   padding-top: 0.5rem;
 }
@@ -213,8 +215,13 @@ h5 {
   }
 .para {
   font-size: 2.25rem;
-  padding-top: 1rem;
   padding-bottom: 0.5rem;
+}
+.para-one {
+  padding-top: 1rem;
+  }
+.para-two {
+  padding-top: 0.5rem;
 }
 .big-pic {
   width: 60%;
