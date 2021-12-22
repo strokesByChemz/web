@@ -208,10 +208,13 @@ h5 {
 
 @media screen and (max-width: 991px) {
 .name-heading {
+  margin-top: 4rem;
   font-size: 7.5rem;
   }
 .para {
   font-size: 2.25rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 .big-pic {
   width: 60%;
